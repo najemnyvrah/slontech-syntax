@@ -1,0 +1,41 @@
+@import "colors";
+
+.html {
+
+  .meta.tag.any {
+    color: #919191;
+  }
+
+  .entity.name.tag {
+    &.block, &.inline, &.name {
+      color: @pink;
+    }
+  }
+
+  .entity.other.attribute-name.id.html {
+    color: #47acef;
+  }
+
+  .punctuation.separator.key-value {
+    color: @green;
+  }
+
+  .string.quoted.double {
+    color: #BEBEBE;
+
+    .punctuation.definition.string {
+
+        color: #919191;
+      }
+
+      .separator.key-value.html {
+        color: @green;
+      }
+
+  }
+  &.text {
+    color: @green;
+  }
+
+
+}

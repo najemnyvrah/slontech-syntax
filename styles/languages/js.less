@@ -1,0 +1,113 @@
+.js {
+
+  &.firebug {
+    color: @red;
+  }
+
+  &.keyword {
+    &.operator {
+      color: @pink;
+    }
+    &.control {
+      color: @pink;
+    }
+  }
+
+  &.source {
+    color: @green;
+  }
+
+  &.type.function {
+    color: @teal;
+
+  }
+  &.meta {
+    
+    &.delimiter {
+
+      &.comma {
+        color: @white;
+      }
+      &.period {
+        color: @white;
+      }
+    }
+
+    &.brace {
+
+      }
+
+      &.curly {
+        color: @teal;
+      }
+
+      &.round {
+        color: @white;
+      }
+  }
+
+  &.name.function {
+    color: @green;
+    font-style: italic;
+  }
+  &.punctuation {
+
+    &.definition {
+
+      &.string {
+        &.begin, &.end {
+          color: @white;
+        }
+      }
+      &.parameters {
+        color: @white;
+      }
+    }
+
+    &.terminator {
+      color: @white;
+    }
+
+  }
+  &.string {
+
+    &.quoted {
+
+      &.single {
+        color: #FFF37C;
+      }
+      &.double {
+        color: rgba(255, 247, 169, 0.78);
+      }
+    }
+  }
+  &.storage.modifier {
+    color: #5f94d9;
+  }
+  &.support {
+
+      color: @green;
+
+    &.function {
+
+
+      &.dom {
+      color: #C49DFF;
+      font-style: italic;
+      }
+    }
+  }
+  &.variable.parameter.function {
+    color: @orange;
+  }
+
+  // Special
+
+  &.entity.name.type.object.firebug {
+    color: @red;
+  }
+  &.support.function.firebug {
+    color: @red;
+  }
+
+}

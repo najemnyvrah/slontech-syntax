@@ -1,0 +1,59 @@
+// Specific PHP syntax
+.php {
+
+  &.function-call {
+    color: #61F9FF;
+  }
+
+  &.variable.other {
+    color: #B59FDB;
+  }
+  &.keyword {
+    &.control {
+      color: #E4479A;
+    }
+  }
+
+  &.punctuation {
+
+
+    &.section {
+
+      &.embedded {
+        &.begin, &.end {
+          color: #9556F2;
+          font-weight: 600;
+          font-style: italic;
+        }
+      }
+
+      &.scope {
+
+        &.begin, &.end {
+          color: #ffffff;
+        }
+      }
+    }
+
+
+    &.source {
+      color: #fff;
+    }
+    &.definition {
+
+      &.variable {
+        color: #9556F2;
+
+
+      }
+    }
+
+    &.terminator {
+
+      &.expression {
+          color: #ffffff;
+      }
+    }
+  }
+
+}

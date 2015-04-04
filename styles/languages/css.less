@@ -1,0 +1,76 @@
+//punctuation terminator rule css
+
+.css {
+
+  &.attribute-name.class {
+    color: @orange;
+  }
+
+  .class {
+    .punctuation.definition {
+      color: rgba(255, 163, 20, 0.78);
+    }
+
+  }
+
+  .id {
+    .punctuation.definition {
+      color: #47acef;
+    }
+  }
+
+  .html {
+
+    &.elements {
+      color:@pink;
+    }
+  }
+
+  &.numeric {
+    color: #DAAF3F;
+
+  }
+  &.punctuation {
+
+    color: @white;
+
+    &.terminator {
+      color: @red;
+      padding-left: 2px;
+    }
+    &.separator {
+      color: @white;
+
+    }
+    &.definition {
+      color: @white;
+    }
+
+  }
+
+  &.property-name {
+    color: #BFA6F4;
+
+  }
+
+  &.property-value {
+    color: @teal;
+  }
+
+  &.unit {
+    color     : #3B887C;
+    font-style: italic;
+  }
+
+  &.quoted.double {
+    color: @light-purple;
+  }
+
+
+}
+
+.less {
+  &.variable {
+    color: #16A2D5;
+  }
+}
