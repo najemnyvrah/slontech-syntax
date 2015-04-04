@@ -8,4 +8,8 @@ Screenshot coming soon.
 
 
 
-![A screenshot of your theme](ScreenShot-1.png)
+![A screenshot of your theme](screenshots/ScreenShot-1.png)
+![A screenshot of your theme](screenshots/ScreenShot-2.png)
+![A screenshot of your theme](screenshots/ScreenShot-3.png)
+![A screenshot of your theme](screenshots/ScreenShot-4.png)
+![A screenshot of your theme](screenshots/ScreenShot-5.png)
