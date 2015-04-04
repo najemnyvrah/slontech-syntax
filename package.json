@@ -1,11 +1,11 @@
 {
-	"name": "slontech-syntax",
-	"theme": "syntax",
-	"version": "0.0.0",
-	"description": "Dark theme for web developers (PHP,HTML,LESS,MYSQL,JQUERY)",
-	"repository": "https://github.com/najemnyvrah/slontech-syntax",
-	"license": "MIT",
-	"engines": {
-		"atom": ">=0.174.0 <2.0.0"
-	}
+  "name": "slontech-syntax",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "Dark theme for web developers (PHP,HTML,LESS,MYSQL,JQUERY)",
+  "repository": "https://github.com/najemnyvrah/slontech-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  }
 }
