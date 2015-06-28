@@ -4,7 +4,8 @@
 @light-gray: #969896;
 @gray: #373b41;
 @dark-gray: #282a2e;
-@very-dark-gray: #26282f;
+@very-dark-gray: #151515;
+@very-dark-gray-blue: #232a34;
 @cyan: #8abeb7;
 @purple: #b294bb;
 @orange: #e78e18;
@@ -19,20 +20,20 @@
 @pink: #FA68D7;
 @white: #ffffff;
 @teal: #43CAD5;
+@seafoam-green: rgba(0, 255, 168, 1);
 
 
 
 
 
 // GUTTER
-@gutter-text: rgb(64,75,83);
-@gutter-text-highlight: @entity;
-@gutter-background: rgb(14,17,18);
-@gutter-background-highlight: rgb(6,7,8);
-
+@gutter-text: rgba(0, 255, 139, 0.78);
+@gutter-text-highlight: @seafoam-green;
+@gutter-background: rgba(0, 0, 0, 1);
+@gutter-background-highlight: rgb(20, 43, 18);
 
 // CODE VIEW
-@code-background: @very-dark-gray; // editor background
+@code-background: @very-dark-gray-blue; // editor background
 @code-font: GNU Freefont;
 @code-font-color: @green; // default editor text
 
@@ -65,7 +66,7 @@
 @cursor-width: 2px;
 @selected: rgba(85,181,219,0.6); // selected background color
 @selected-border: rgba(85,181,219,0.9);
-@selected-line: rgba(192, 192, 192, 0.1);
+@selected-line: rgba(26, 255, 0, 0.1) !important;
 
 // HTML
 @tag: @pink;

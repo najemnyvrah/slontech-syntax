@@ -775,6 +775,7 @@ atom-text-editor[mini], :host(.mini) {
     color: @guides;
   }
 
+
   .invisible-character {
     color: @invisible;
   }
@@ -804,7 +805,8 @@ atom-text-editor[mini], :host(.mini) {
       &.cursor-line-no-selection {
         background-color: @gutter-background-highlight !important;
         color: @gutter-text-highlight;
-        // font-weight: bold;
+        font-weight: bold;
+        border-left: 1px solid @orange;
       }
 
     }
@@ -875,9 +877,20 @@ atom-text-editor[mini], :host(.mini) {
   // SELECTED LINE STYLE
   .line.cursor-line {
     background: @selected-line !important;
+    background: rgba(26, 255, 0, 0.1) !important;
     padding-left: 10px;
     margin-left: -10px;
+    border-bottom: dashed .1em rgba(255, 116, 0, 0.69);
   }
 
+  atom-pane.pane.active {
+    background-color: #8f5e46;
+  }
 
+}
+
+.bracket-matcher .region {
+  border-radius: 2px;
+  background-color: rgba(255, 0, 222, 0.53);
+  border-bottom: 0px;
 }
