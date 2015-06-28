@@ -1,3 +1,3 @@
-## 0.2.2
+## 0.2.3
 * updated screen shots
-* minor color chages
+* minor color changes
