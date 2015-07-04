@@ -22,7 +22,7 @@
 
   }
   &.meta {
-    
+
     &.delimiter {
 
       &.comma {
@@ -103,8 +103,16 @@
 
   // Special
 
-  &.entity.name.type.object.firebug {
-    color: @red;
+  &.console {
+    font-family: monospace;
+    &.object {
+      color: rgba(224, 18, 18, 1);
+      font-weight: 600;
+      text-decoration: none;
+    }
+    &.support {
+      color: rgba(224, 142, 18, 1);
+    }
   }
   &.support.function.firebug {
     color: @red;
