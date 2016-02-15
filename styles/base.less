@@ -810,6 +810,8 @@ atom-text-editor[mini], :host(.mini) {
         color: @gutter-text-highlight;
         font-weight: bold;
         border-left: 1px solid @orange;
+        border-bottom: dashed .1em rgba(255, 116, 0, 0.69);
+
       }
 
     }
@@ -881,8 +883,8 @@ atom-text-editor[mini], :host(.mini) {
   .line.cursor-line {
     background: @selected-line !important;
     background: rgba(26, 255, 0, 0.1) !important;
-    padding-left: 10px;
-    margin-left: -10px;
+    // padding-left: 10px;
+    // margin-left: -10px;
     border-bottom: dashed .1em rgba(255, 116, 0, 0.69);
   }
 

@@ -35,8 +35,6 @@
 
     &.brace {
 
-      }
-
       &.curly {
         color: @teal;
       }
@@ -44,16 +42,21 @@
       &.round {
         color: @white;
       }
+    }
+    &.function {
+      color: @white;
+    }
   }
-
   &.name.function {
     color: @green;
     font-style: italic;
+    &.entity {
+      color: @light-green;
+    }
   }
   &.punctuation {
 
     &.definition {
-
       &.string {
         &.begin, &.end {
           color: @white;
@@ -61,6 +64,11 @@
       }
       &.parameters {
         color: @white;
+      }
+      &.arguments {
+        &.begin, &.end {
+          color: @white;
+        }
       }
     }
 
@@ -99,6 +107,14 @@
   }
   &.variable.parameter.function {
     color: @orange;
+  }
+
+  &.variable {
+    &.property {
+      &.other {
+        color: @dark-purple;
+      }
+    }
   }
 
   // Special
