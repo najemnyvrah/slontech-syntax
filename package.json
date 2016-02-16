@@ -1,8 +1,8 @@
 {
   "name": "slontech-syntax",
   "theme": "syntax",
-  "version": "0.10.0",
-  "description": "Dark theme for web developers ( PHP, HTML ,LESS ,MYSQL ,JQUERY )",
+  "version": "0.8.0",
+  "description": "Dark theme for web developers ( HTML, CSS/LESS, PHP, MYSQL, javascript, AJAX, coffee )",
   "repository": {
     "type": "git",
     "url": "https://github.com/najemnyvrah/slontech-syntax"
