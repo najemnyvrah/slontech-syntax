@@ -1,7 +1,7 @@
 {
   "name": "slontech-syntax",
   "theme": "syntax",
-  "version": "0.8.6",
+  "version": "0.8.7",
   "description": "Dark theme for web developers ( HTML, CSS/LESS, PHP, MYSQL, javascript, AJAX, coffee )",
   "repository": {
     "type": "git",
