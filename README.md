@@ -1,6 +1,6 @@
 # slontech-syntax theme
 
-This theme is focused on web development using HTML, CSS/LESS, PHP, MYSQL, javascript, AJAX, coffee.
+This theme is focused on web development using HTML, CSS/LESS, PHP, MYSQL, javascript, AJAX, coffee, JSON.
 
 This is a dark theme with lots of color.
 
