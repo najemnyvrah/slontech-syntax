@@ -1,0 +1,38 @@
+.json {
+  &.string{
+    &.quoted {
+      &.double {
+        color: @light-green;
+      }
+    }
+  }
+  &.language {
+    &.constant {
+      color: @green !important;
+    }
+  }
+  &.punctuation {
+    &.definition {
+      &.string {
+        &.begin, &.end {
+          color: @light-gray;
+        }
+      }
+      &.dictionary {
+        &.begin, &.end {
+          color: @pink !important;
+        }
+      }
+    }
+  }
+  &.separator {
+    &.dictionary {
+      &.key-value {
+        color: @yellow;
+      }
+      &.pair {
+        color: @red;
+      }
+    }
+  }
+}
