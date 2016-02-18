@@ -1,0 +1,68 @@
+.python {
+  color: @green;
+  &.string {
+    color: @light-grey;
+  }
+  &.constant {
+    color: @orange;
+    &.other {
+      &.placeholder {
+        color: @dark-teal;
+
+      }
+    }
+  }
+  &.meta {
+    &.function-call  {
+      &.arguments {
+        color: @lighter-green;
+      }
+    }
+  }
+  &.keyword{
+
+    &.control{
+      color: @yellow;
+      &.import {
+        color: @teal;
+      }
+    }
+    &.operator {
+      &.assignment {
+        color: @pink;
+      }
+      &.comparison {
+        color: @pink;
+      }
+      &.arithmetic {
+        color: @cyan;
+      }
+    }
+  }
+  &.punctuation {
+    &.definition {
+      &.arguments {
+        &.begin, &.end {
+          color: @light-blue;
+        }
+      }
+      &.string {
+        &.begin, &.end {
+          color: @white;
+        }
+      }
+      &.parameters {
+        &.begin, &.end {
+          color: @light-blue;
+        }
+      }
+    }
+  }
+  &.support {
+    &.function {
+      &.builtin {
+        color: @peach;
+      }
+    }
+  }
+}
